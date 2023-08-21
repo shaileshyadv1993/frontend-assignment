@@ -1,0 +1,70 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1602165041128-a9f50010bdad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Ymx1cnJ5JTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.survey {
+  border: solid;
+  border-color: red;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+
+  border-width: 2px;
+  width: fit-content;
+  height: fit-content;
+  padding: 15px;
+}
+
+#name,
+#email,
+#phone,
+#profession {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 7px;
+  border-width: 1px;
+}
+
+#message {
+  border-radius: 7px;
+}
+
+#btn {
+  border-radius: 7px;
+  width: 70px;
+  height: 35px;
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: bolder;
+  color: yellow;
+  text-align: center;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.submit_btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: rgb(244, 128, 128);
+}
+
+.profession_class {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
