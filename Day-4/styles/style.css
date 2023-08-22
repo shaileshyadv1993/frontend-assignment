@@ -1,0 +1,22 @@
+h1 {
+  color: red;
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  margin: auto;
+  border: 2px solid;
+}
+
+th {
+  font-weight: 700;
+}
+.row-odd {
+  background-color: rgb(171, 171, 249);
+  font-size: 20px;
+}
+.row-even {
+  background-color: rgb(151, 113, 187);
+  font-size: 20px;
+}
