@@ -1,0 +1,82 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-image: url(../images/rawkkim-ZA7Vmvl1pEg-unsplash.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+img {
+  height: 100vh;
+  width: 100vh;
+}
+
+.navbar {
+  background-color: rgb(0, 0, 0, 0.45);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.navbar div {
+  padding: 20px 25px;
+}
+
+.navbar .float-left {
+  float: left;
+}
+
+.navbar .float-left a {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  padding: 21px 25px;
+}
+
+.navbar .float-left a:hover {
+  background-color: white;
+  color: orange;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.navbar .float-right {
+  float: right;
+}
+
+.navbar .float-right a {
+  font-size: 25px;
+  text-decoration: none;
+  color: orange;
+  padding: 21px 25px;
+}
+
+.navbar .float-right a:hover {
+  background-color: white;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.hotel {
+  margin-top: 25%;
+}
+
+.hotel img {
+  width: 100px;
+  height: 100px;
+}
+.hotel .hotel-name {
+  text-align: center;
+  color: orange;
+  font-size: 45px;
+}
+
+.hotel .hotel-name .hotel-link {
+  margin-top: -3%;
+}
+
+p {
+  margin: -2px;
+  color: orange;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
