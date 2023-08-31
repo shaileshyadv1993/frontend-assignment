@@ -1,0 +1,2 @@
+div.item$*5
+for 5 classes
