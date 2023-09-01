@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexBox-assignment</title>
+    <link rel="stylesheet" href="./styles/style_flexbox.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-left">
+        <div class="menu-list">
+          <ul>
+            <li class="list-item"><a href="" class="link">Home</a></li>
+            <li class="list-item"><a href="" class="link">About</a></li>
+            <li class="list-item"><a href="" class="link">Contact</a></li>
+            <li class="list-item"><a href="" class="link">Services</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container-right">
+        <div class="flexbox">
+          <h1>Flex-Box Example</h1>
+          <h2>Contact Us</h2>
+        </div>
+        <div class="form">
+          <div class="form-left">
+            <div class="name">
+              <label for="name">Name:</label> <br />
+              <input type="text" placeholder="Enter name" class="infield" />
+            </div>
+            <div class="subject">
+              <label for="subject">Subject:</label> <br />
+              <input type="text" placeholder="Enter Subject" class="infield" />
+            </div>
+            <div class="gender">
+              <label for="gender">Gender:</label> <br />
+              <select name="gender" id="" class="infield">
+                <option value="">Choose your value</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Others</option>
+              </select>
+            </div>
+            <div class="message-box">
+              <label for="message">Message:</label> <br />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                class="infield-message"
+              >
+Your message here...
+              </textarea>
+            </div>
+          </div>
+          <div class="form-right">
+            <div class="email">
+              <label for="email">Email:</label> <br />
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="infield"
+              />
+            </div>
+            <div class="phone">
+              <label for="phone">Phone:</label> <br />
+              <input type="number" placeholder="Phone number" class="infield" />
+            </div>
+            <div class="age">
+              <label for="age">Age:</label> <br />
+              <input
+                type="number"
+                placeholder="Enter your age"
+                class="infield"
+              />
+            </div>
+            <div class="country">
+              <label for="country">Country:</label> <br />
+              <input
+                type="text"
+                placeholder="Select your country"
+                class="infield"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="occupation">
+          <label for="occupation">Occupation:</label> <br />
+          <input type="text" placeholder="Occupation here" />
+        </div>
+        <div class="btn">
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
